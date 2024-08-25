@@ -4,8 +4,8 @@ import {
   Route
 } from "react-router-dom";
 import Navbar from '../src/components/Navbar';
-import Listing from "../src/pages";
-import Form from "../src/pages";
+import Listing from "./pages/Listing";
+import Form from "../src/pages/Form/index";
 
 function App() {
   return (
